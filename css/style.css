@@ -197,7 +197,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   font-weight: 700;
 }
-#hero .hero-content .btn-banner {
+.btn-banner {
   background: #E3c543;
   border: 2px solid #E3c543;
   border-radius: 30px;
@@ -206,7 +206,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
-#hero .hero-content .btn-banner:hover {
+.btn-banner:hover {
   background: none;
   color: #fff;
   background: #3f3d56;
@@ -600,7 +600,21 @@ Inner Banner
   content: '';
   position: absolute;
   display: block;
-  width: 62px;
+  width: 20%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  border-top: #E3c543 solid 2px;
+  right: 0;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.client_panel h2::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 40%;
   height: 3px;
   bottom: 0;
   left: 0;
